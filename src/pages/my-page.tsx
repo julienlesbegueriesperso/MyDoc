@@ -9,7 +9,6 @@ export default function MyReactPage() {
       <h1>My React page</h1>
       <p>This is a React page</p>
       <div style={{width:"1000px", height: "800px"}}>
-      <OverviewFlow></OverviewFlow>
       </div>
     </Layout>
   );

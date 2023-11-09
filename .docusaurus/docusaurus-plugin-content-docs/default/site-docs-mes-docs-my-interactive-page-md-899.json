@@ -1,0 +1,25 @@
+{
+  "id": "mes-docs/my-interactive-page",
+  "title": "This is interactive ...",
+  "description": "",
+  "source": "@site/docs/mes-docs/my-interactive-page.md",
+  "sourceDirName": "mes-docs",
+  "slug": "/mes-docs/my-interactive-page",
+  "permalink": "/docs/mes-docs/my-interactive-page",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ISOBIM Paving Prototype",
+    "permalink": "/docs/mes-docs/isobim"
+  },
+  "next": {
+    "title": "Page 2",
+    "permalink": "/docs/mes-docs/page2"
+  }
+}

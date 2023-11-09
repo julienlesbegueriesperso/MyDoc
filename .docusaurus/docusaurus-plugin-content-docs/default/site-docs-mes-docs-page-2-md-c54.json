@@ -1,0 +1,21 @@
+{
+  "id": "mes-docs/page2",
+  "title": "Page 2",
+  "description": "C'est ma  page 2",
+  "source": "@site/docs/mes-docs/page2.md",
+  "sourceDirName": "mes-docs",
+  "slug": "/mes-docs/page2",
+  "permalink": "/docs/mes-docs/page2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "This is interactive ...",
+    "permalink": "/docs/mes-docs/my-interactive-page"
+  }
+}

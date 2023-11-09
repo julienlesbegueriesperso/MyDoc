@@ -1,0 +1,16 @@
+{
+  "title": "Hello - ma doc",
+  "description": "Tout ce qu'il y a dans Hello",
+  "slug": "/category/hello---ma-doc",
+  "permalink": "/docs/category/hello---ma-doc",
+  "navigation": {
+    "previous": {
+      "title": "Intro to my docs",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Hello",
+      "permalink": "/docs/mes-docs/hello"
+    }
+  }
+}
