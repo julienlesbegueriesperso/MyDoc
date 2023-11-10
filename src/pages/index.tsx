@@ -1,21 +1,24 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
 
-import styles from './index.module.css';
 import Header from '../components/Header';
+import styles from './index.module.css';
+import { Suspense, lazy } from 'react';
+import { CircularProgress, Typography } from '@mui/material';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+const HomeComponent = lazy(() => import("../components/Home"));
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       {/* <div className="container"> */}
-        <Heading as="h1" className="hero__title">
+        {/* <Heading as='h4' className="hero__title"> */}
           {/* <img src="img/logo.svg"></img> */}
         <Header></Header>
-        </Heading>
+        {/* </Heading> */}
        
         {/* <div className={styles.buttons}>
           <Link
@@ -45,6 +48,12 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+      <Suspense fallback={<CircularProgress></CircularProgress>}>
+         <BrowserOnly>{() => {
+             return <HomeComponent></HomeComponent>;
+         }}</BrowserOnly>
+      </Suspense>
+      
         {/* <br/>
         <div className={styles.buttons}>
             <Link className="button button--primary button--lg"

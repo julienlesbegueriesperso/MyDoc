@@ -49,42 +49,45 @@ export function Header() {
 
     return (
         // <div className="container">
-        // <div className="banner">
-            <div style={{ display: "flex"}}>
-                <img style={{ flex: 1}} src="/img/logo.svg" alt="logo dermatologie minimes" />
-                <div style={{ flex: 5}}>
-                    <div className={styles.buttons}>
-                        <Link
-                            className="button button--primary button--lg"
-                            to="https://goo.gl/maps/zuszCXTeG7M5vceS6">
-                            <Typography variant="body1" >
-                                <BusinessIcon></BusinessIcon>
-                                132bis Bd Pierre et Marie Curie
-                            </Typography>
-                            <Typography variant="body1">31200 Toulouse</Typography>
-                        </Link>
-                    </div>
-                    <div className={styles.buttons}>
-                        <Link
-                            className="button button--primary button--lg"
-                            to="mailto:dermatologieminimes@gmx.fr">
-                            <Typography variant='body1'>
-                                <MailOutline></MailOutline>
-                                dermatologieminimes@gmx.fr</Typography>
-                        </Link>
-                    </div>
-                    <div className={styles.buttons}>
-                        <Link
-                            className="button button--primary button--lg"
-                            to="tel:0970582602">
-                            <Typography variant="body1">
-                                <PhoneIcon></PhoneIcon>
-                                 09 70 58 26 02
-                            </Typography>
-                        </Link>
-                    </div>
+        <div className={styles["banner"]}>
+            {/* <div style={{display: "inline-block"}}> */}
+            <img style={{ flex: 0.1, width: "20vw", minWidth: '300pt' }}  src="/img/logo.svg" alt="logo dermatologie minimes" />
+            <span style={{ flex: 4 }}></span>
+            <div style={{ flex: 5}}>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="https://maps.app.goo.gl/yJaN4Jt31aR9e84L7">
+                        <Typography variant="body1" >
+                            <BusinessIcon></BusinessIcon>
+                            132bis Bd Pierre et Marie Curie
+                        </Typography>
+                        <Typography variant="body1">31200 Toulouse</Typography>
+                    </Link>
                 </div>
-            <ImageList cols={3} variant="quilted" sx={{ width: '10%', height: '20vh', position: 'absolute', right:'2%' }}>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="mailto:dermatologieminimes@gmx.fr">
+                        <Typography variant='body1'>
+                            <MailOutline></MailOutline>
+                            dermatologieminimes@gmx.fr</Typography>
+                    </Link>
+                </div>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="tel:0970582602">
+                        <Typography variant="body1">
+                            <PhoneIcon></PhoneIcon>
+                            09 70 58 26 02
+                        </Typography>
+                    </Link>
+                </div>
+            </div>
+            <span style={{ flex: 4 }}></span>
+            {/* </div> */}
+            <ImageList cols={3} variant="quilted" sx={{ height: '50pt', flex: 2}}>
                 {images.map((item) => (
                     <ImageListItem
                         key={item.img}
@@ -99,9 +102,8 @@ export function Header() {
                     </ImageListItem>
                 ))}
             </ImageList>
-        {/* </div> */}
         </div>
-        
+
     );
 }
 

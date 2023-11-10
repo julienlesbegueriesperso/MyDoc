@@ -1,0 +1,9 @@
+.box_map_container {
+    width: 50vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .box_map_container {
+        width: 80vw;
+    }
+}

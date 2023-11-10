@@ -2,11 +2,12 @@ import { Box, IconButton, Tooltip as MaterialToolTip } from '@mui/material';
 import { GeoJsonObject } from 'geojson';
 import L, { LatLngBoundsExpression, LatLngExpression, Map as LeafletMap, Point } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import styles from './Map.module.css';
 import React, { useRef } from 'react'
 import { MapContainer, TileLayer, Marker, GeoJSON, Tooltip, LayerGroup, SVGOverlay } from "react-leaflet"
-import pathSubway from './pathSubway.json'
-import parkingIcon from './parkingIcon.svg'
-import iconPMR from './iconPMR.svg'
+import pathSubway from '../../../static/map/pathSubway.json'
+// import parkingIcon from './parkingIcon.svg'
+// import iconPMR from './iconPMR.svg'
 import Control from 'react-leaflet-custom-control';
 import CenterFocusStrongIcon  from '@mui/icons-material/CenterFocusStrong';
 
@@ -17,16 +18,21 @@ L.Icon.Default.mergeOptions({
 });
 
 const iconParking = new L.Icon({
-  iconUrl: parkingIcon,
+  iconUrl: "./map/parkingIcon.svg",//parkingIcon,
   // iconRetinaUrl: require('../img/marker-pin-person.svg'),
+  iconSize: new L.Point(30, 30),
+  className: 'leaflet-div-icon'
+});
+
+const markerIcon = new L.Icon({
+  iconUrl: './map/logo_dermato_minimes.svg',
   iconSize: new L.Point(30, 30),
   className: 'leaflet-div-icon'
 });
 
 
 const iconParkingPMR = new L.Icon({
-  iconUrl: iconPMR,
-  // iconRetinaUrl: require('../img/marker-pin-person.svg'),
+  iconUrl: "./map/iconPMR.svg",
   iconSize: new L.Point(20, 20),
   className: 'leaflet-div-icon'
 });
@@ -41,16 +47,9 @@ export function Map() {
       }
     }
     
-    // const pathBounds:LatLngBoundsExpression = [
-    //   [43.62700177177041,
-    //   1.4355484543331158],
-    //   [ 
-    //     43.626600669688656,
-    //     1.4340959285869133]
-    // ]
 
     return(
-      <Box width={'40vw'} height={'30vh'}>
+      <Box className={styles["box_map_container"]} height={'30vh'}>
       <MapContainer  center={position} zoom={17} 
       maxZoom={18} minZoom={15}
       ref={mapRef}
@@ -59,7 +58,7 @@ export function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={position}>
+        <Marker position={position} icon={markerIcon}>
           <Tooltip permanent direction='right' offset={new Point(20, 0)}>
             <h5>Cabinet de Dermatologie des Minimes</h5>
             <p>132bis Bd Pierre et Marie Curie,

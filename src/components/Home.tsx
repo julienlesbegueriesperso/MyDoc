@@ -1,12 +1,20 @@
+import { useState, useEffect } from 'react';
 import { Alert, Typography } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
 // import PhoneIcon from "@mui/icons-material/Phone";
-import Map from './Map'
+import Map from './Map/Map'
 import TabItem from "./TabItem";
 
 
 
 export function Home() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mounted) {
+    return null; // return this null to avoid hydration errors
+  }
   return (
    <TabItem content={<>
           <Typography>
@@ -25,7 +33,7 @@ export function Home() {
             Rendez-vous au{" "}
             <a
               target={"_blank"}
-              href="https://goo.gl/maps/sLmwZ4ujExDP91aF6"
+              href="https://maps.app.goo.gl/yJaN4Jt31aR9e84L7"
               rel="noreferrer"
             >
               <BusinessIcon></BusinessIcon>

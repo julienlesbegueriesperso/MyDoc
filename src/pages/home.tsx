@@ -1,17 +1,17 @@
 
 import {lazy, Suspense} from 'react'
 import Layout from '@theme/Layout';
+import { Typography } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 // import { Home } from '../components/Home';
-const DynamicComponent = lazy(() => import("../components/Home"));
+const HomeComponent = lazy(() => import("../components/Home"));
 
 export default function HomeRoot(props) {
     
     return (<Layout>
-        <Suspense fallback={() => <Text>Loading ....</Text>}>
-        {/* <DynamicComponent /> */}
+        <Suspense fallback={<Typography>Loading ....</Typography>}>
          <BrowserOnly>{() => {
-             return <DynamicComponent></DynamicComponent>;
+             return <HomeComponent></HomeComponent>;
          }}</BrowserOnly>
       </Suspense>
        
