@@ -4,6 +4,8 @@ import BusinessIcon from "@mui/icons-material/Business";
 import Map from './Map'
 import TabItem from "./TabItem";
 
+
+
 export function Home() {
   return (
    <TabItem content={<>
@@ -30,7 +32,9 @@ export function Home() {
               132bis Bd Pierre et Marie Curie, 31200 Toulouse
             </a>
           </Typography>
+          
           <Map></Map>
+          
           <Typography>
             Par le métro (ligne B, arrêt Barrière de Paris)
           </Typography>
