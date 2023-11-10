@@ -12,14 +12,5 @@
   "version": "current",
   "frontMatter": {
     "sidebar": 3
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "ISOBIM Paving Prototype",
-    "permalink": "/docs/mes-docs/isobim"
-  },
-  "next": {
-    "title": "Page 2",
-    "permalink": "/docs/mes-docs/page2"
   }
 }

@@ -12,14 +12,5 @@
   "version": "current",
   "frontMatter": {
     "sidebar": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Hello",
-    "permalink": "/docs/mes-docs/hello"
-  },
-  "next": {
-    "title": "This is interactive ...",
-    "permalink": "/docs/mes-docs/my-interactive-page"
   }
 }

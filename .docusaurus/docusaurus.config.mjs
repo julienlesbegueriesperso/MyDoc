@@ -25,16 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "remarkPlugins": [
-            null
-          ],
-          "rehypePlugins": [
-            null
-          ]
-        },
-        "blog": {
-          "showReadingTime": true
+          "sidebarPath": "./sidebars.ts"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -50,23 +41,39 @@ export default {
       "crossorigin": "anonymous"
     }
   ],
+  "trailingSlash": true,
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Dermatologie des Minimes",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Logo des dermatologues des minimes",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "to": "/home",
-          "label": "Accueil",
+          "to": "/team",
+          "label": "L' Équipe",
           "position": "left"
         },
         {
-          "to": "/my-page",
-          "label": "My React Page",
+          "to": "/appointment",
+          "label": "Prendre RDV",
+          "position": "left"
+        },
+        {
+          "type": "html",
+          "value": "<p/>",
+          "position": "left"
+        },
+        {
+          "to": "tel:0970582602",
+          "label": "09 70 58 26 02",
+          "position": "left"
+        },
+        {
+          "to": "mailto:dermatologieminimes@gmx.fr",
+          "label": "dermatologieminimes@gmx.fr",
           "position": "left"
         }
       ],
@@ -74,26 +81,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Hello",
-              "to": "/docs/mes-docs/hello"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            }
-          ]
-        }
-      ],
+      "links": [],
       "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
     },
     "prism": {

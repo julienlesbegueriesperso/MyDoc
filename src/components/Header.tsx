@@ -3,7 +3,6 @@ import BusinessIcon from "@mui/icons-material/Business";
 import PhoneIcon from "@mui/icons-material/Phone";
 import styles from "./Header.module.css";
 import { MailOutline } from "@mui/icons-material";
-import { useMermaidThemeConfig } from "@docusaurus/theme-mermaid/lib/client/index.js";
 import Link from "@docusaurus/Link";
 
 
@@ -45,18 +44,21 @@ export function Header() {
         },
     ];
 
-    const theme = useMermaidThemeConfig();
 
-    return (
-        // <div className="container">
-        <div className={styles["banner"]}>
+    return (<>
+        {/* // <div className="container"> */}
+        {/* // <div className={styles["banner"]}>
             {/* <div style={{display: "inline-block"}}> */}
-            <img style={{ flex: 0.1, width: "20vw", minWidth: '300pt' }}  src="/img/logo.svg" alt="logo dermatologie minimes" />
-            <span style={{ flex: 4 }}></span>
+            
+            <img style={{ flex: 0.1, width: "12vw", minWidth: '200pt' }}  src="/img/logo.svg" alt="logo dermatologie minimes" />
+            {/* // </div>
+            // <div>
+            // <span style={{ flex: 4 }}></span>
+            // </div> */}
             <div style={{ flex: 5}}>
                 <div className={styles.buttons}>
                     <Link
-                        className="button button--secondary button--lg"
+                        className="button button--primary button--lg"
                         to="https://maps.app.goo.gl/yJaN4Jt31aR9e84L7">
                         <Typography variant="body1" >
                             <BusinessIcon></BusinessIcon>
@@ -67,7 +69,7 @@ export function Header() {
                 </div>
                 <div className={styles.buttons}>
                     <Link
-                        className="button button--secondary button--lg"
+                        className="button button--primary button--lg"
                         to="mailto:dermatologieminimes@gmx.fr">
                         <Typography variant='body1'>
                             <MailOutline></MailOutline>
@@ -76,7 +78,7 @@ export function Header() {
                 </div>
                 <div className={styles.buttons}>
                     <Link
-                        className="button button--secondary button--lg"
+                        className="button button--primary button--lg"
                         to="tel:0970582602">
                         <Typography variant="body1">
                             <PhoneIcon></PhoneIcon>
@@ -85,9 +87,8 @@ export function Header() {
                     </Link>
                 </div>
             </div>
-            <span style={{ flex: 4 }}></span>
-            {/* </div> */}
-            <ImageList cols={3} variant="quilted" sx={{ height: '50pt', flex: 2}}>
+            
+            <ImageList cols={3} variant="quilted" sx={{ height: '150pt', width: '250pt'}}>
                 {images.map((item) => (
                     <ImageListItem
                         key={item.img}
@@ -102,8 +103,9 @@ export function Header() {
                     </ImageListItem>
                 ))}
             </ImageList>
-        </div>
-
+            <p style={{flex:1}}></p>
+        
+        </>
     );
 }
 

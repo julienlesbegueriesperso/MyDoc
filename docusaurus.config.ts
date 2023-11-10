@@ -37,19 +37,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // remarkPlugins: [remarkMath],
+          // rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,25 +55,31 @@ const config: Config = {
       crossorigin: 'anonymous',
     },
   ],
-
+  trailingSlash: true,
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Dermatologie des Minimes',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo des dermatologues des minimes',
         src: 'img/logo.svg',
       },
+      
       items: [
+        
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',
         //   position: 'left',
         //   label: 'My doc',
         // },
-        {to: '/home', label: 'Accueil', position: 'left'},
-        {to: '/my-page', label: 'My React Page', position: 'left'},
+        {to: '/team', label: 'L\' Équipe', position: 'left'},
+        {to: '/appointment', label: 'Prendre RDV', position: 'left'},
+        {type: 'html', value:'<p/>'},
+        {to: 'tel:0970582602', label: '09 70 58 26 02', position: 'left'},
+        {to: 'mailto:dermatologieminimes@gmx.fr', label: 'dermatologieminimes@gmx.fr', position: 'left'}
+
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -95,15 +90,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Hello',
-              to: '/docs/mes-docs/hello',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Hello',
+        //       to: '/docs/mes-docs/hello',
+        //     },
+        //   ],
+        // },
         // {
         //   title: 'Community',
         //   items: [
@@ -121,19 +116,19 @@ const config: Config = {
         //     },
         //   ],
         // },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            // {
-            //   label: 'GitHub',
-            //   href: 'https://github.com/facebook/docusaurus',
-            // },
-          ],
-        },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: '/blog',
+        //     },
+        //     // {
+        //     //   label: 'GitHub',
+        //     //   href: 'https://github.com/facebook/docusaurus',
+        //     // },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },

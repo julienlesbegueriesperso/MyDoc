@@ -13,11 +13,17 @@ const HomeComponent = lazy(() => import("../components/Home"));
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+
+{/* <img 
+  style={{ flex: 0.1, width: "12vw", minWidth: '200pt' }}
+  src="/img/logo.svg" alt="logo dermatologie minimes" /> */}
+  <Header></Header>
+
       {/* <div className="container"> */}
         {/* <Heading as='h4' className="hero__title"> */}
           {/* <img src="img/logo.svg"></img> */}
-        <Header></Header>
+        {/* <Header></Header> */}
         {/* </Heading> */}
        
         {/* <div className={styles.buttons}>
@@ -44,8 +50,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Dermatologie des Minimes">
       <HomepageHeader />
       <main>
       <Suspense fallback={<CircularProgress></CircularProgress>}>
@@ -53,15 +59,6 @@ export default function Home(): JSX.Element {
              return <HomeComponent></HomeComponent>;
          }}</BrowserOnly>
       </Suspense>
-      
-        {/* <br/>
-        <div className={styles.buttons}>
-            <Link className="button button--primary button--lg"
-              onClick={() => alert('test')} 
-            >Coucou</Link>
-        </div>
-           */}
-        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

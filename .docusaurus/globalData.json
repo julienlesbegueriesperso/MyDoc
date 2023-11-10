@@ -13,37 +13,12 @@
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "mes-docs/hello",
-              "path": "/docs/mes-docs/hello",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "mes-docs/isobim",
-              "path": "/docs/mes-docs/isobim",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "mes-docs/my-interactive-page",
-              "path": "/docs/mes-docs/my-interactive-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "mes-docs/page2",
-              "path": "/docs/mes-docs/page2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/hello---ma-doc",
-              "path": "/docs/category/hello---ma-doc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "testSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "testSidebar": {
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"

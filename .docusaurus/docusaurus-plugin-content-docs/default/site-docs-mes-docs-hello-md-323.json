@@ -13,14 +13,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Hello - ma doc",
-    "permalink": "/docs/category/hello---ma-doc"
-  },
-  "next": {
-    "title": "ISOBIM Paving Prototype",
-    "permalink": "/docs/mes-docs/isobim"
   }
 }

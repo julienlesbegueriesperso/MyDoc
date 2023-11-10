@@ -1,9 +1,11 @@
-import { Typography } from "@mui/material";
+import { Box, Paper, Typography } from "@mui/material";
 import TabItem from "./TabItem";
+import Header from "./Header";
 
 export function Team() {
   return (
-    <TabItem content={<>
+    <>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
             <strong>Marie Caucanas</strong>
             <br />
@@ -29,7 +31,8 @@ export function Team() {
             <br />
             Camille, Corinne, Julie.
           </Typography>
-          </>}></TabItem>
+          </Paper>
+          </>
   );
 }
 
