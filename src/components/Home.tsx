@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Alert, Typography } from "@mui/material";
+import { Alert, Paper, Typography } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
 // import PhoneIcon from "@mui/icons-material/Phone";
 import Map from './Map/Map'
@@ -16,8 +16,9 @@ export function Home() {
     return null; // return this null to avoid hydration errors
   }
   return (
-   <TabItem content={<>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
+            
             Les Dr Marie CAUCANAS et Laureline LEGENDRE sont conventionnées en
             secteur 1 (honoraires conformes à ceux de la Sécurité Sociale).
           </Typography>
@@ -87,8 +88,8 @@ export function Home() {
             anonymisées, etc.).
           </Typography>
           <br/><br/><br/><br/>
-          </>
-   }></TabItem>
+          </Paper>
+  
   );
 }
 

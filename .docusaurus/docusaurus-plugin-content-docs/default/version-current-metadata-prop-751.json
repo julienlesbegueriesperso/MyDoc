@@ -11,18 +11,18 @@
     "testSidebar": [
       {
         "type": "link",
-        "label": "Intro to my docs",
-        "href": "/docs/intro",
-        "docId": "intro",
+        "label": "test",
+        "href": "/docs/test",
+        "docId": "test",
         "unlisted": false
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
-      "title": "Intro to my docs",
-      "description": "Voilà",
+    "test": {
+      "id": "test",
+      "title": "test",
+      "description": "",
       "sidebar": "testSidebar"
     }
   }

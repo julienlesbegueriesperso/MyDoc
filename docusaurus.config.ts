@@ -59,6 +59,9 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
       title: 'Dermatologie des Minimes',
       logo: {
@@ -67,18 +70,40 @@ const config: Config = {
       },
       
       items: [
+        {
+          type: 'dropdown',
+          position: 'left',
+          label: 'Informations générales',
+          items: [
+            {to: '/team', label: 'L\' Équipe'},
+            {to: '/appointment', label: 'Prendre RDV'},
+            {to: '/general', label: "Sites d'information patients"}
+            
+          ]
+        },
+        {
+          type: 'dropdown',
+          position: 'left',
+          label: 'Spécialités',
+          items: [
+            {to: '/photo', label: 'Photothérapie'},
+        {to: '/epilation', label: 'Épilation laser et tarifs'},
+        {to: '/bio', label: 'Biothérapies'},
+        {to: '/ongles', label: 'Maladie des ongles'},
+          ]
+        },
         
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'My doc',
-        // },
-        {to: '/team', label: 'L\' Équipe', position: 'left'},
-        {to: '/appointment', label: 'Prendre RDV', position: 'left'},
-        {type: 'html', value:'<p/>'},
-        {to: 'tel:0970582602', label: '09 70 58 26 02', position: 'left'},
-        {to: 'mailto:dermatologieminimes@gmx.fr', label: 'dermatologieminimes@gmx.fr', position: 'left'}
+        // {to: '/team', label: 'L\' Équipe', position: 'left'},
+        // {to: '/appointment', label: 'Prendre RDV', position: 'left'},
+        // {to: '/photo', label: 'Photothérapie', position: 'left'},
+        // {to: '/epilation', label: 'Épilation laser et tarifs', position: 'left'},
+        // {to: '/bio', label: 'Biothérapies', position: 'left'},
+        // {to: '/ongles', label: 'Maladie des ongles', position: 'left'},
+        {to: '/cdm', label: 'Clinique des Minimes', position: 'left'},
+        
+        {type: 'html', value:'<a href="https://www.doctolib.fr/dermatologue/toulouse-minimes" target=\'_blank\' rel="noreferrer" >Doctolib.fr</a>', position: 'right'},
+        {to: 'tel:0970582602', label: '09 70 58 26 02', position: 'right'},
+        {to: 'mailto:dermatologieminimes@gmx.fr', label: 'dermatologieminimes@gmx.fr', position: 'right'}
 
         // {
         //   href: 'https://github.com/facebook/docusaurus',

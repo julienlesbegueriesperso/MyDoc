@@ -31,9 +31,11 @@
     "react-dom": "^18.0.0",
     "react-leaflet": "^4.2.1",
     "react-leaflet-custom-control": "^1.4.0",
+    "react-table": "^7.8.0",
     "reactflow": "^11.9.4",
     "rehype-katex": "^7.0.0",
-    "remark-math": "^6.0.0"
+    "remark-math": "^6.0.0",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.0.0",

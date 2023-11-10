@@ -6,6 +6,62 @@
     },
     "config": "5e9f5e1a"
   },
+  "/bio/-c43": {
+    "__comp": "b5204ab3",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/cdm/-382": {
+    "__comp": "99929cf5",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/epilation/-2e8": {
+    "__comp": "08af0835",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/general/-ba7": {
+    "__comp": "1970adf5",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/generic-page/-0ff": {
+    "__comp": "d0e6a975",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/intro/-b18": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "content": "2c397297"
+  },
+  "/ongles/-6b3": {
+    "__comp": "883f8ca4",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/photo/-d02": {
+    "__comp": "bb73eddd",
+    "__context": {
+      "plugin": "0801863a"
+    },
+    "config": "5e9f5e1a"
+  },
   "/team/-b99": {
     "__comp": "e0383bde",
     "__context": {
@@ -13,22 +69,22 @@
     },
     "config": "5e9f5e1a"
   },
-  "/docs/-e78": {
+  "/docs/-655": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "cddc5891"
     }
   },
-  "/docs/-caa": {
+  "/docs/-834": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/docs/-f4c": {
+  "/docs/-34d": {
     "__comp": "a94703ab"
   },
-  "/docs/intro/-669": {
+  "/docs/test/-7fd": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "4af26d8c"
   },
   "/-b9d": {
     "__comp": "1df93b7f",

@@ -8,11 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "test",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "test",
+              "path": "/docs/test",
               "sidebar": "testSidebar"
             }
           ],
@@ -20,8 +20,8 @@
           "sidebars": {
             "testSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/test",
+                "label": "test"
               }
             }
           }

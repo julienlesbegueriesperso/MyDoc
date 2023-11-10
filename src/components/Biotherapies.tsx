@@ -1,21 +1,20 @@
-import { Typography } from "@mui/material";
-import TabItem from "./TabItem";
+import { Typography, Paper } from "@mui/material";
+
 
 export function Biotherapies() {
   return (
-    <TabItem content={<>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
             Les dermatologues ont la possibilité de vous proposer des
             traitements spécifiques (biothérapies) selon les indications
             médicales (psoriasis, dermatite atopique, urticaire) et les critères
             en vigueur.
             <br />
-            <a href="https://www.sfdermato.org/page-30-fiches-information-patients">
+            <a target="_blank" href="https://www.sfdermato.org/page-30-fiches-information-patients">
               Lien vers le site de la SFD (Société Française de Dermatologie)
             </a>
           </Typography>
-          </>
-    }></TabItem>
+    </Paper>
   );
 }
 

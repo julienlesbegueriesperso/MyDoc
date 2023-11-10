@@ -18,21 +18,18 @@
           "contentPathLocalized": "/Users/jlesbegu/Travail/dev/git/tmp/MyDoc/i18n/fr/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "intro",
-              "title": "Intro to my docs",
-              "description": "Voilà",
-              "source": "@site/docs/intro.md",
+              "id": "test",
+              "title": "test",
+              "description": "",
+              "source": "@site/docs/test.md",
               "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
+              "slug": "/test",
+              "permalink": "/docs/test",
               "draft": false,
               "unlisted": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "testSidebar"
             }
           ],
@@ -41,7 +38,7 @@
             "testSidebar": [
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "test"
               }
             ]
           }
@@ -68,8 +65,50 @@
       },
       {
         "type": "jsx",
+        "permalink": "/bio",
+        "source": "@site/src/pages/bio.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/cdm",
+        "source": "@site/src/pages/cdm.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/epilation",
+        "source": "@site/src/pages/epilation.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/general",
+        "source": "@site/src/pages/general.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/generic-page",
+        "source": "@site/src/pages/generic-page.tsx"
+      },
+      {
+        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/intro",
+        "source": "@site/src/pages/intro.md",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "jsx",
+        "permalink": "/ongles",
+        "source": "@site/src/pages/ongles.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/photo",
+        "source": "@site/src/pages/photo.tsx"
       },
       {
         "type": "jsx",

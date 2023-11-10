@@ -1,11 +1,9 @@
-import { Alert, Box, Typography } from "@mui/material";
+import { Alert, Box, Paper, Typography } from "@mui/material";
 import TabItem from "./TabItem";
 
 export function Appointment() {
   return (
-    <Box sx={{maxWidth:"800pt", margin: 'auto', marginTop:0}}>
-          <br/>
-         
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Alert severity="info">
               Pour prendre un rendez-vous de Dermatologie, vous devez être
               adressé par votre médecin traitant déclaré (respect du Parcours de
@@ -14,7 +12,7 @@ export function Appointment() {
             <br/>
             <Alert severity="success">
             Connectez-vous sur la plateforme{" "}
-            <a href="https://www.doctolib.fr/" target='_blank' rel="noreferrer" >Doctolib.fr</a>
+            <a href="https://www.doctolib.fr/dermatologue/toulouse-minimes" target='_blank' rel="noreferrer" >Doctolib.fr</a>
             <strong> le premier jour ouvré du mois vers 9h.</strong>
           </Alert>
           <br/>
@@ -38,7 +36,7 @@ export function Appointment() {
             n'acceptons pas les demandes de rendez-vous hors parcours de soins.
           </Typography>
           </Box>
-          </Box>
+          </Paper>
        
   );
 }

@@ -1,13 +1,19 @@
 import { Box, Paper, Typography } from "@mui/material";
 import TabItem from "./TabItem";
 import Header from "./Header";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+
+
+
 
 export function Team() {
+
+  const theme = useDocusaurusContext()
   return (
     <>
     <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
-            <strong>Marie Caucanas</strong>
+            <strong style={{color: 'violet'}}>Marie Caucanas</strong>
             <br />
             Diplômée en Dermatologie, spécialisée en maladies et chirurgie des
             ongles, DIU Maladies systémiques, DIU Dermatologie esthétique, laser
@@ -16,7 +22,7 @@ export function Team() {
             Ongle de la SFD (Société Française de Dermatologie).
           </Typography>
           <Typography>
-            <strong>Laureline Legendre</strong>
+            <strong style={{color: 'deeppink'}}>Laureline Legendre</strong>
             <br />
             Diplômée en Dermatologie, DIU de dermato-pédiatrie, DIU de
             dermoscopie. Past President de l'AMPDV (Association Midi Pyrénées
@@ -27,7 +33,7 @@ export function Team() {
             bénignes, kératoses séborrhéiques...)
           </Typography>
           <Typography>
-            <strong>Nos assistantes</strong>
+            <strong style={{color: 'green'}}>Nos assistantes</strong>
             <br />
             Camille, Corinne, Julie.
           </Typography>

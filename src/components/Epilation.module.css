@@ -1,0 +1,9 @@
+.myspan {
+  font-size: large;
+}
+
+@media screen and (max-width: 996px) {
+  .myspan {
+    font-size: x-small;
+  }  
+}

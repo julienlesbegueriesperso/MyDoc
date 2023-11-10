@@ -1,9 +1,9 @@
-import { Typography } from "@mui/material";
+import { Typography, Paper } from "@mui/material";
 import TabItem from "./TabItem";
 
 export function Nails() {
   return (
-    <TabItem content={<>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
           Le Dr Marie CAUCANAS est spécialisée dans les maladies et la chirurgie
           des ongles.
@@ -50,7 +50,7 @@ export function Nails() {
           Veuillez noter qu'aucune chirurgie n'est pratiquée le jour de la
           première consultation.
           </Typography>
-          </>}></TabItem>
+          </Paper>
   );
 }
 

@@ -1,9 +1,9 @@
-import { Typography } from "@mui/material";
-import TabItem from "./TabItem";
+import { Typography, Paper } from "@mui/material";
+
 
 export function Phototherapy() {
   return (
-    <TabItem content={<>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
           Notre cabinet est équipé d'une cabine de photothérapie UVA et UVB.
           <br/>
@@ -24,7 +24,7 @@ export function Phototherapy() {
           href='/fiche-information-patient-2017-sur-la-puvatherapie-deogos-revues-apres-fp-1-a6f205b8b86a152cf384342e73378eac.pdf'>
             <strong>Fiche Puvathérapie</strong></a>
         </Typography>
-        </>}></TabItem>
+        </Paper>
   );
 }
 

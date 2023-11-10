@@ -1,9 +1,9 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Paper } from "@mui/material";
 import TabItem from "./TabItem";
 
 export function CDM() {
   return (
-    <TabItem content={<>
+    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
               Le Dr Marie CAUCANAS et le Dr Laureline LEGENDRE sont en
               partenariat avec la clinique des Minimes. 
@@ -18,10 +18,9 @@ export function CDM() {
             {/* </Grid> */}
             {/* <Grid item xs={2}> */}
             <Box sx={{float:'right', right:'20pt'}}>
-                <img width={75} height={110} src='/logo_cdm.png' alt='logo cdm'></img>
+                <img width="75px" height="110px" src='/img/logo_cdm.png' alt='logo cdm'></img>
             </Box>
-           </>
-    }></TabItem>
+           </Paper>
   );
 }
 
