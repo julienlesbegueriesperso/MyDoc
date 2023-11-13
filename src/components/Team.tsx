@@ -1,8 +1,10 @@
-import { Avatar, Box, Paper, Typography } from "@mui/material";
+import { Avatar, Box, CircularProgress, Paper, Typography } from "@mui/material";
 import TabItem from "./TabItem";
 import Header from "./Header";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import CabinetImages from "./CabinetImages";
+import { Suspense } from "react";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 
 
@@ -42,7 +44,11 @@ export function Team() {
           </Typography>
           </Paper>
           <div style={{margin: "1.2em"}}>
-          <CabinetImages/>
+          <Suspense fallback={<CircularProgress></CircularProgress>}>
+         <BrowserOnly>{() => {
+        return <CabinetImages></CabinetImages>
+         }}</BrowserOnly>
+         </Suspense>
           </div>
           </div>
   );
