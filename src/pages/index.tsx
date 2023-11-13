@@ -63,7 +63,11 @@ export default function Home(): JSX.Element {
          }}</BrowserOnly>
       </Suspense>
         <div style={{margin: '1.5em'}}>
-        <CabinetImages></CabinetImages>
+        <Suspense fallback={<CircularProgress></CircularProgress>}>
+         <BrowserOnly>{() => {
+        return <CabinetImages></CabinetImages>
+         }}</BrowserOnly>
+         </Suspense>
         </div>
         </div>
       </main>
