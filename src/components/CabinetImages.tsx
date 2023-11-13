@@ -46,38 +46,38 @@ export function CabinetImages() {
 
 const itemData = [
   {
-    img: "IMG-3128.jpg",
+    img: "/img/IMG-3128.jpg",
     title: "medic5",
     rows: 2,
     cols: 2,
   },
   {
-    img: "medic4.jpg",
+    img: "/img/medic4.jpg",
     title: "medic4",
     rows: 1,
     cols: 1,
   },
   {
-    img: "IMG_3132.jpg",
+    img: "/img/IMG_3132.jpg",
     title: "medic9",
     rows: 1,
     cols: 1,
   },
 
   {
-    img: "IMG-3129.jpg",
+    img: "/img/IMG-3129.jpg",
     title: "medic6",
     rows: 1,
     cols: 2,
   },
   {
-    img: "IMG-3130.jpg",
+    img: "/img/IMG-3130.jpg",
     title: "medic7",
     rows: 2,
     cols: 2,
   },
   {
-    img: "IMG_3131.jpg",
+    img: "/img/IMG_3131.jpg",
     title: "medic8",
     rows: 2,
     cols: 2,

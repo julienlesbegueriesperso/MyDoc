@@ -5,7 +5,7 @@ export function Nails() {
   return (
     <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
-          Le Dr Marie CAUCANAS est spécialisée dans les maladies et la chirurgie
+          Le <strong style={{color: 'violet'}}>Dr Marie CAUCANAS</strong> est spécialisée dans les maladies et la chirurgie
           des ongles.
           <br/>
            Pour ce qui concerne les suspicions d'onychomycoses
@@ -29,7 +29,7 @@ export function Nails() {
           avez une (moins de 6 mois)</li>
           </ul>
           <Typography>
-          Le Dr Marie CAUCANAS peut être amenée à
+          Le <strong style={{color: 'violet'}}>Dr Marie CAUCANAS</strong> peut être amenée à
           faire des prélèvements complémentaires selon les cas : une analyse
           histopathologique qui est directement envoyée par le cabinet au
           laboratoire d'anatomie pathologique (une facture vous sera envoyée

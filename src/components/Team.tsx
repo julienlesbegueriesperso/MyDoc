@@ -1,7 +1,8 @@
-import { Box, Paper, Typography } from "@mui/material";
+import { Avatar, Box, Paper, Typography } from "@mui/material";
 import TabItem from "./TabItem";
 import Header from "./Header";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import CabinetImages from "./CabinetImages";
 
 
 
@@ -10,9 +11,10 @@ export function Team() {
 
   const theme = useDocusaurusContext()
   return (
-    <>
+    <div style={{display: 'flex'}}>
     <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
+          <Avatar alt="Marie Caucanas" src="/img/mc.jpeg" />
             <strong style={{color: 'violet'}}>Marie Caucanas</strong>
             <br />
             Diplômée en Dermatologie, spécialisée en maladies et chirurgie des
@@ -22,6 +24,7 @@ export function Team() {
             Ongle de la SFD (Société Française de Dermatologie).
           </Typography>
           <Typography>
+          <Avatar alt="Marie Caucanas" src="/img/ll.png" />
             <strong style={{color: 'deeppink'}}>Laureline Legendre</strong>
             <br />
             Diplômée en Dermatologie, DIU de dermato-pédiatrie, DIU de
@@ -38,7 +41,10 @@ export function Team() {
             Camille, Corinne, Julie.
           </Typography>
           </Paper>
-          </>
+          <div style={{margin: "1.2em"}}>
+          <CabinetImages/>
+          </div>
+          </div>
   );
 }
 

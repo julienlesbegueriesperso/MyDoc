@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/jlesbegu/Travail/dev/git/tmp/MyDoc/sidebars.ts",
-          "contentPath": "/Users/jlesbegu/Travail/dev/git/tmp/MyDoc/docs",
-          "contentPathLocalized": "/Users/jlesbegu/Travail/dev/git/tmp/MyDoc/i18n/fr/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/jlesbegu/Travail/dev/git/DermatoV2/sidebars.ts",
+          "contentPath": "/Users/jlesbegu/Travail/dev/git/DermatoV2/docs",
+          "contentPathLocalized": "/Users/jlesbegu/Travail/dev/git/DermatoV2/i18n/fr/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "test",

@@ -8,6 +8,8 @@ import styles from './index.module.css';
 import { Suspense, lazy } from 'react';
 import { CircularProgress, Typography } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import TwoColumnsContent from '../components/TwoColumnsContent';
+import CabinetImages from '../components/CabinetImages';
 const HomeComponent = lazy(() => import("../components/Home"));
 
 function HomepageHeader() {
@@ -54,12 +56,18 @@ export default function Home(): JSX.Element {
       description="Dermatologie des Minimes">
       <HomepageHeader />
       <main>
+        <div style={{display: 'flex'}}>
       <Suspense fallback={<CircularProgress></CircularProgress>}>
          <BrowserOnly>{() => {
              return <HomeComponent></HomeComponent>;
          }}</BrowserOnly>
       </Suspense>
+        <div style={{margin: '1.5em'}}>
+        <CabinetImages></CabinetImages>
+        </div>
+        </div>
       </main>
     </Layout>
+
   );
 }

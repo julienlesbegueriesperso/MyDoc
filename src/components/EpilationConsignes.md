@@ -61,7 +61,8 @@ Le jour J:
   - Ne pas mettre de déodorant le jour du laser.
   - Mettre la crème anesthésiante 2h avant, si besoin. Cette dernière n'est pas remboursée pour les actes
     non remboursés.
-Après la séance:
+
+Après la séance
   - Appliquer une crème hydratante ou cicatrisante pendant 2 à 3 jours
   - Eviter l'exposition solaire/ le déodorant/ la piscine tant que les rougeurs post-laser persistent.
 

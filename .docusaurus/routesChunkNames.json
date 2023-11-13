@@ -1,96 +1,139 @@
 {
-  "/appointment/-ec7": {
-    "__comp": "df2a61d8",
+  "/__docusaurus/debug/-63f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "0801863a"
-    },
-    "config": "5e9f5e1a"
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
   },
-  "/bio/-c43": {
-    "__comp": "b5204ab3",
+  "/__docusaurus/debug/config/-cce": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "0801863a"
-    },
-    "config": "5e9f5e1a"
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
   },
-  "/cdm/-382": {
-    "__comp": "99929cf5",
+  "/__docusaurus/debug/content/-563": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---docusaurus-debug-178-75c"
     },
-    "config": "5e9f5e1a"
+    "allContent": "allContent---docusaurus-debug-content-246-d88"
   },
-  "/epilation/-2e8": {
-    "__comp": "08af0835",
+  "/__docusaurus/debug/globalData/-a54": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
+  },
+  "/__docusaurus/debug/metadata/-819": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
+  },
+  "/__docusaurus/debug/registry/-e10": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
+  },
+  "/__docusaurus/debug/routes/-342": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-178-75c"
+    }
+  },
+  "/appointment/-5af": {
+    "__comp": "__comp---site-src-pages-appointment-tsxdf-2-bc1",
+    "__context": {
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/general/-ba7": {
-    "__comp": "1970adf5",
+  "/bio/-a41": {
+    "__comp": "__comp---site-src-pages-bio-tsxb-52-151",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/generic-page/-0ff": {
-    "__comp": "d0e6a975",
+  "/cdm/-9ab": {
+    "__comp": "__comp---site-src-pages-cdm-tsx-999-0d3",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/intro/-b18": {
-    "__comp": "1f391b9e",
+  "/epilation/-33a": {
+    "__comp": "__comp---site-src-pages-epilation-tsx-08-a-820",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "content": "2c397297"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/ongles/-6b3": {
-    "__comp": "883f8ca4",
+  "/general/-21a": {
+    "__comp": "__comp---site-src-pages-general-tsx-197-162",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/photo/-d02": {
-    "__comp": "bb73eddd",
+  "/generic-page/-c7a": {
+    "__comp": "__comp---site-src-pages-generic-page-tsxd-0-e-8bc",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   },
-  "/team/-b99": {
-    "__comp": "e0383bde",
+  "/intro/-dc2": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "content": "content---intro-2-c-3-ea0"
   },
-  "/docs/-655": {
-    "__comp": "5e95c892",
+  "/ongles/-4ed": {
+    "__comp": "__comp---site-src-pages-ongles-tsx-883-6a5",
     "__context": {
-      "plugin": "cddc5891"
+      "plugin": "plugin---appointment-16-e-e60"
+    },
+    "config": "config---appointment-5-e-9-c49"
+  },
+  "/photo/-f05": {
+    "__comp": "__comp---site-src-pages-photo-tsxbb-7-f7d",
+    "__context": {
+      "plugin": "plugin---appointment-16-e-e60"
+    },
+    "config": "config---appointment-5-e-9-c49"
+  },
+  "/team/-3cd": {
+    "__comp": "__comp---site-src-pages-team-tsxe-03-071",
+    "__context": {
+      "plugin": "plugin---appointment-16-e-e60"
+    },
+    "config": "config---appointment-5-e-9-c49"
+  },
+  "/docs/-c5d": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-8-fe-283"
     }
   },
   "/docs/-834": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-739"
   },
   "/docs/-34d": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/test/-7fd": {
-    "__comp": "17896441",
-    "content": "4af26d8c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-test-4-af-f66"
   },
-  "/-b9d": {
-    "__comp": "1df93b7f",
+  "/-900": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "0801863a"
+      "plugin": "plugin---appointment-16-e-e60"
     },
-    "config": "5e9f5e1a"
+    "config": "config---appointment-5-e-9-c49"
   }
 }
