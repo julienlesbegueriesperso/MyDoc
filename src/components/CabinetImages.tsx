@@ -20,7 +20,7 @@ export function CabinetImages() {
 
   return (<>
     {(w > 1410) ? <ImageList
-      sx={{ width: '30vw', height: '50vh', boxShadow: '0 0 0.1vw 0.1vh grey' }}
+      sx={{ width: '30vw', height: 'full-width', boxShadow: '0 0 0.1vw 0.1vh grey' }}
       variant="quilted"
       cols={4}
       rowHeight={121}

@@ -13,6 +13,11 @@ export default [
     exact: true
   },
   {
+    path: '/cabinet-pictures/',
+    component: ComponentCreator('/cabinet-pictures/', '539'),
+    exact: true
+  },
+  {
     path: '/cdm/',
     component: ComponentCreator('/cdm/', '9ab'),
     exact: true

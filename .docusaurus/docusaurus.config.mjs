@@ -72,6 +72,10 @@ export default {
             {
               "to": "/general",
               "label": "Sites d'information patients"
+            },
+            {
+              "to": "/cabinet-pictures",
+              "label": "Galerie"
             }
           ]
         },
@@ -364,6 +368,13 @@ export default {
         }
       ]
     },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
+    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -378,13 +389,6 @@ export default {
     },
     "liveCodeBlock": {
       "playgroundPosition": "bottom"
-    },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
     }
   },
   "markdown": {

@@ -70,6 +70,11 @@
       },
       {
         "type": "jsx",
+        "permalink": "/cabinet-pictures",
+        "source": "@site/src/pages/cabinet-pictures.tsx"
+      },
+      {
+        "type": "jsx",
         "permalink": "/cdm",
         "source": "@site/src/pages/cdm.tsx"
       },

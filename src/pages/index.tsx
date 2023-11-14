@@ -11,7 +11,7 @@ import styles from './index.module.css';
 import { Suspense, lazy, useEffect, useState } from 'react';
 import { CircularProgress, Typography } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import TwoColumnsContent from '../components/TwoColumnsContent';
+// import TwoColumnsContent from '../components/TwoColumnsContent';
 import CabinetImages from '../components/CabinetImages';
 import CookieConsent from 'react-cookie-consent';
 const HomeComponent = lazy(() => import("../components/Home"));

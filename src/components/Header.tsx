@@ -35,7 +35,7 @@ export function Header() {
             cols: 2,
         },
         {
-            img: "/img/medic2.jpg",
+            img: "/img/cabinet/cab-7075b.jpg",
             title: "medic2",
         },
         {
@@ -88,7 +88,7 @@ export function Header() {
                 </div>
             </div>
             
-            <ImageList cols={3} variant="quilted" sx={{ height: '150pt', width: '250pt'}}>
+            <ImageList cols={3} variant="quilted" sx={{ height: '170pt', width: '200pt'}}>
                 {images.map((item) => (
                     <ImageListItem
                         key={item.img}

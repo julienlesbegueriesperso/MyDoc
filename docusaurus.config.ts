@@ -80,7 +80,8 @@ const config: Config = {
           items: [
             {to: '/team', label: 'L\' Équipe'},
             {to: '/appointment', label: 'Prendre RDV'},
-            {to: '/general', label: "Sites d'information patients"}
+            {to: '/general', label: "Sites d'information patients"},
+            {to: '/cabinet-pictures', label: "Galerie"}
             
           ]
         },

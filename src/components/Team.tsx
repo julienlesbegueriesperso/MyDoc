@@ -11,9 +11,10 @@ export function Team() {
 
   const theme = useDocusaurusContext()
   return (
-    <div style={{ display: 'flex' }}>
+    <div style={{display: "flex", flexWrap: "wrap"}}>
+      <div style={{ flex: '1 15em'}}>
       <Paper elevation={0} sx={{ maxWidth: "800pt", margin: '15pt', padding: '5pt' }}>
-        <Avatar alt="Marie Caucanas" src="/img/mc.jpeg" />
+        <Avatar sx={{ width: 120, height: 120 }} alt="Marie Caucanas" src="/img/mc.jpeg" />
         <Typography>
           <strong style={{ color: 'violet' }}>Marie Caucanas</strong>
           <br />
@@ -24,7 +25,7 @@ export function Team() {
           Ongle de la SFD (Société Française de Dermatologie).
         </Typography>
         <br />
-        <Avatar alt="Marie Caucanas" src="/img/ll.png" />
+        <Avatar sx={{ width: 120, height: 120 }} alt="Laurleine Legendre" src="/img/ll.jpeg" />
         <Typography>
           <strong style={{ color: 'deeppink' }}>Laureline Legendre</strong>
           <br />
@@ -36,12 +37,17 @@ export function Team() {
           confort (ex. taches visage bénignes, excroissances cutanées
           bénignes, kératoses séborrhéiques...)
         </Typography>
+        <br/>
         <Typography>
           <strong style={{ color: 'green' }}>Nos assistantes</strong>
           <br />
           Camille, Corinne, Julie.
         </Typography>
+        <div style={{alignContent:"center", alignItems: "center"}}>
+          <img src="/img/assistantes.jpg" alt="assistantes" width={"50%"}></img>
+        </div>
       </Paper>
+      </div>
       <div style={{ margin: "1.2em" }}>
         <Suspense fallback={<CircularProgress></CircularProgress>}>
           <BrowserOnly>{() => {

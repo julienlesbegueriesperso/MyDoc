@@ -18,5 +18,6 @@ export default {
   "b5204ab3": [() => import(/* webpackChunkName: "b5204ab3" */ "@site/src/pages/bio.tsx"), "@site/src/pages/bio.tsx", require.resolveWeak("@site/src/pages/bio.tsx")],
   "bb73eddd": [() => import(/* webpackChunkName: "bb73eddd" */ "@site/src/pages/photo.tsx"), "@site/src/pages/photo.tsx", require.resolveWeak("@site/src/pages/photo.tsx")],
   "d0e6a975": [() => import(/* webpackChunkName: "d0e6a975" */ "@site/src/pages/generic-page.tsx"), "@site/src/pages/generic-page.tsx", require.resolveWeak("@site/src/pages/generic-page.tsx")],
+  "dc657f0c": [() => import(/* webpackChunkName: "dc657f0c" */ "@site/src/pages/cabinet-pictures.tsx"), "@site/src/pages/cabinet-pictures.tsx", require.resolveWeak("@site/src/pages/cabinet-pictures.tsx")],
   "df2a61d8": [() => import(/* webpackChunkName: "df2a61d8" */ "@site/src/pages/appointment.tsx"), "@site/src/pages/appointment.tsx", require.resolveWeak("@site/src/pages/appointment.tsx")],
   "e0383bde": [() => import(/* webpackChunkName: "e0383bde" */ "@site/src/pages/team.tsx"), "@site/src/pages/team.tsx", require.resolveWeak("@site/src/pages/team.tsx")],};
