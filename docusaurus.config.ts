@@ -128,7 +128,7 @@ const config: Config = {
             },
             {
               label: 'Tarif des services esthétiques TODO',
-              to: "/epilation"
+              to: "#"
             }
           ]
         },
@@ -137,15 +137,15 @@ const config: Config = {
           items: [
             {
               label: 'Identification des professionnels',
-              to: "/identification"
+              to: "#"
             },
             {
               label: 'Hébergeur',
-              to: '/hebergeur'
+              to: '#'
             },
             {
               label: 'Autorité',
-              to: '/autorite'
+              to: '#'
             }
           ]
         }

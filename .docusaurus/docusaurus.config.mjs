@@ -133,7 +133,7 @@ export default {
             },
             {
               "label": "Tarif des services esthétiques TODO",
-              "to": "/epilation"
+              "to": "#"
             }
           ]
         },
@@ -142,15 +142,15 @@ export default {
           "items": [
             {
               "label": "Identification des professionnels",
-              "to": "/identification"
+              "to": "#"
             },
             {
               "label": "Hébergeur",
-              "to": "/hebergeur"
+              "to": "#"
             },
             {
               "label": "Autorité",
-              "to": "/autorite"
+              "to": "#"
             }
           ]
         }
@@ -376,15 +376,15 @@ export default {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
     },
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
+    },
     "mermaid": {
       "theme": {
         "dark": "dark",
         "light": "default"
       },
       "options": {}
-    },
-    "liveCodeBlock": {
-      "playgroundPosition": "bottom"
     }
   },
   "markdown": {
