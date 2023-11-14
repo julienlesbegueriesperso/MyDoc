@@ -107,7 +107,7 @@ possible uniquement dans certains cas (hirsutisme) et pour des zones définies.
 
 export function Epilation() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
             Notre cabinet est équipé du laser{" "}
             <strong>Alexandrite Candela Gentle Lase Pro-U</strong> avec système

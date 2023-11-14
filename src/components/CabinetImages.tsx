@@ -1,25 +1,26 @@
 import { ImageList, ImageListItem } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function srcset(image: string, size: number, rows = 1, cols = 1) {
   return {
     src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
+    srcSet: `${image}?w=${size * cols}&h=${size * rows
+      }&fit=crop&auto=format&dpr=2 2x`,
   };
 }
 
 export function CabinetImages() {
   const [w, setW] = useState(window.innerWidth)
 
-  window.addEventListener("resize", (e) => {
-    setW(window.innerWidth)
-  })
+  useEffect(() => {
+    window.addEventListener("resize", (e) => {
+      setW(window.innerWidth)
+    })
+  }, [])
 
   return (<>
-    { (w > 1410) ? <ImageList
-      sx={{ width: '30vw', height: '50vh', boxShadow:'0 0 0.1vw 0.1vh grey'}}
+    {(w > 1410) ? <ImageList
+      sx={{ width: '30vw', height: '50vh', boxShadow: '0 0 0.1vw 0.1vh grey' }}
       variant="quilted"
       cols={4}
       rowHeight={121}
@@ -31,16 +32,16 @@ export function CabinetImages() {
           rows={item.rows || 1}
         >
           <img
-          style={{imageRendering:'crisp-edges'}}
+            style={{ imageRendering: 'crisp-edges' }}
             {...srcset(item.img, 121, item.rows, item.cols)}
             alt={item.title}
             loading="lazy"
           />
         </ImageListItem>
       ))}
-    </ImageList>:<p></p>
-      }
-      </>
+    </ImageList> : <p></p>
+    }
+  </>
   );
 }
 

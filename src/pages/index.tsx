@@ -2,19 +2,25 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
+// import { ConsentBanner, ConsentProvider } from 'react-hook-consent';
+// import 'react-hook-consent/dist/styles/style.css';
+// import { useConsent } from 'react-hook-consent';
 
 import Header from '../components/Header';
 import styles from './index.module.css';
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect, useState } from 'react';
 import { CircularProgress, Typography } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import TwoColumnsContent from '../components/TwoColumnsContent';
 import CabinetImages from '../components/CabinetImages';
+import CookieConsent from 'react-cookie-consent';
 const HomeComponent = lazy(() => import("../components/Home"));
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const {siteConfig} = useDocusaurusContext()
+
   return (
+    
      <header className={clsx('hero hero--primary', styles.heroBanner)}>
 
 {/* <img 
@@ -50,7 +56,14 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  // const { consent, setConsent, isBannerVisible, toggleBanner, isDetailsVisible, toggleDetails } = useConsent();
+
+
+  
+
   return (
+    <>
+    
     <Layout
       title={`${siteConfig.title}`}
       description="Dermatologie des Minimes">
@@ -71,7 +84,35 @@ export default function Home(): JSX.Element {
         </div>
         </div>
       </main>
+      <CookieConsent
+       
+  location="bottom"
+  buttonText="J'ai compris"
+  cookieName="sampleCookie"
+  style={{ background: "#2B373B" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+  expires={150}
+>
+  Ce site serait peut-être amené à stocker des cookies ... TODO
+</CookieConsent>
     </Layout>
+    
+    
+    {/* <BrowserOnly>{() => {
+        return  <>{isBannerVisible && <ConsentBanner
+    settings={{ hidden: false, label: 'More', modal: { title: 'Modal title' } }}
+    decline={{ label: 'No' }}
+    approve={{ label: 'Yes'}}
+    >
+     <>
+        Can we use cookies and external services according to our <a href="test">privacy policy</a> to
+        improve the browsing experience?
+    </>
+</ConsentBanner>}
+  <p/>
+</>
+}}</BrowserOnly> */}
+</>
 
   );
 }

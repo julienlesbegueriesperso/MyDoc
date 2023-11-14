@@ -3,7 +3,7 @@ import { GeoJsonObject } from 'geojson';
 import L, { LatLngBoundsExpression, LatLngExpression, Map as LeafletMap, Point } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { MapContainer, TileLayer, Marker, GeoJSON, Tooltip, LayerGroup, SVGOverlay } from "react-leaflet"
 import pathSubway from '../../../static/map/pathSubway.json'
 // import parkingIcon from './parkingIcon.svg'
@@ -46,14 +46,13 @@ export function Map() {
         mapRef.current.flyTo(position, 17)
       }
     }
-    
 
     return(
       <Box className={styles["box_map_container"]} height={'30vh'}>
       <MapContainer  center={position} zoom={17} 
       maxZoom={18} minZoom={15}
-      ref={mapRef}
-      scrollWheelZoom={true} bounceAtZoomLimits={true} style={{height:'30vh'}}>
+      ref={mapRef} 
+      scrollWheelZoom={true} bounceAtZoomLimits={true} style={{height:'30vh', zIndex:0}}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -123,8 +123,39 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "links": [
+        {
+          "title": "CGV",
+          "items": [
+            {
+              "label": "Conditions générales de vente TODO",
+              "to": "#"
+            },
+            {
+              "label": "Tarif des services esthétiques TODO",
+              "to": "/epilation"
+            }
+          ]
+        },
+        {
+          "title": "Proriétaires du site",
+          "items": [
+            {
+              "label": "Identification des professionnels",
+              "to": "/identification"
+            },
+            {
+              "label": "Hébergeur",
+              "to": "/hebergeur"
+            },
+            {
+              "label": "Autorité",
+              "to": "/autorite"
+            }
+          ]
+        }
+      ],
+      "copyright": "Copyright © 2023 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "
     },
     "prism": {
       "theme": {
@@ -333,13 +364,6 @@ export default {
         }
       ]
     },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -351,6 +375,13 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     },
     "liveCodeBlock": {
       "playgroundPosition": "bottom"

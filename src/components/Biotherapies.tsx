@@ -3,7 +3,7 @@ import { Typography, Paper } from "@mui/material";
 
 export function Biotherapies() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
             Les dermatologues ont la possibilité de vous proposer des
             traitements spécifiques (biothérapies) selon les indications

@@ -3,7 +3,7 @@ import { Typography, Paper } from "@mui/material";
 
 export function Phototherapy() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0} sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
           Notre cabinet est équipé d'une cabine de photothérapie UVA et UVB.
           <br/>

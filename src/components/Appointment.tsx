@@ -3,7 +3,7 @@ import TabItem from "./TabItem";
 
 export function Appointment() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Alert severity="info">
               Pour prendre un rendez-vous de Dermatologie, vous devez être
               adressé par votre médecin traitant déclaré (respect du Parcours de

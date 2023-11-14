@@ -4,6 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
+
+
 const config: Config = {
   title: 'Centre de Dermatologie des Minimes',
   // tagline: 'Centre de Dermatologie des Minimes',
@@ -46,6 +48,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
@@ -114,7 +117,38 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      
       links: [
+        {
+          title: 'CGV',
+          items: [
+            {
+              label: 'Conditions générales de vente TODO',
+              to: "#"
+            },
+            {
+              label: 'Tarif des services esthétiques TODO',
+              to: "/epilation"
+            }
+          ]
+        },
+        {
+          title: 'Proriétaires du site',
+          items: [
+            {
+              label: 'Identification des professionnels',
+              to: "/identification"
+            },
+            {
+              label: 'Hébergeur',
+              to: '/hebergeur'
+            },
+            {
+              label: 'Autorité',
+              to: '/autorite'
+            }
+          ]
+        }
         // {
         //   title: 'Docs',
         //   items: [
@@ -155,7 +189,11 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} TODO société, adresse, numéro immatriculation ou RCS,\n
+      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n
+      autorité ? (ordre des médecins ?)
+      `,
+      
     },
     prism: {
       theme: prismThemes.github,

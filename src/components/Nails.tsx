@@ -3,7 +3,7 @@ import TabItem from "./TabItem";
 
 export function Nails() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0} sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
           Le <strong style={{color: 'violet'}}>Dr Marie CAUCANAS</strong> est spécialisée dans les maladies et la chirurgie
           des ongles.

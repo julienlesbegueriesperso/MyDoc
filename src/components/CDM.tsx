@@ -3,7 +3,7 @@ import TabItem from "./TabItem";
 
 export function CDM() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
             <Typography>
               Le Dr Marie CAUCANAS et le Dr Laureline LEGENDRE sont en
               partenariat avec la clinique des Minimes. 

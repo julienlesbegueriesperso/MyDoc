@@ -3,7 +3,7 @@ import { Paper } from '@mui/material';
 
 export function Information() {
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0} sx={{margin: '15pt', padding: '5pt'}}>
           <ul>
             <li>
               Site d'information grand public de la Société Française de

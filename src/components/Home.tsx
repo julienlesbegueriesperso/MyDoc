@@ -16,7 +16,7 @@ export function Home() {
     return null; // return this null to avoid hydration errors
   }
   return (
-    <Paper variant="outlined"  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
           <Typography>
             
             Les Dr Marie CAUCANAS et Laureline LEGENDRE sont conventionnées en
