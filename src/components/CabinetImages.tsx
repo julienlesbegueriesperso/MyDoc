@@ -19,8 +19,8 @@ export function CabinetImages() {
   }, [])
 
   return (<>
-    {(w > 1410) ? <ImageList
-      sx={{ width: '30vw', height: 'full-width', boxShadow: '0 0 0.1vw 0.1vh grey' }}
+    { <ImageList
+      sx={{ width: 'auto', height: 'full-width', boxShadow: '0 0 0.1vw 0.1vh grey' }}
       variant="quilted"
       cols={4}
       rowHeight={121}
@@ -39,7 +39,7 @@ export function CabinetImages() {
           />
         </ImageListItem>
       ))}
-    </ImageList> : <p></p>
+    </ImageList> 
     }
   </>
   );
@@ -53,7 +53,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: "/img/medic4.jpg",
+    img: "/img/cabinet/cab-7034.jpg",
     title: "medic4",
     rows: 1,
     cols: 1,

@@ -106,7 +106,7 @@ const config: Config = {
         {to: '/cdm', label: 'Clinique des Minimes', position: 'left'},
         
         {type: 'html', value:'<a href="https://www.doctolib.fr/dermatologue/toulouse-minimes" target=\'_blank\' rel="noreferrer" >Doctolib.fr</a>', position: 'right'},
-        {to: 'tel:0970582602', label: '09 70 58 26 02', position: 'right'},
+        {to: 'tel:0162150816', label: '01 62 15 08 16 (télé secrétariat)', position: 'right'},
         {to: 'mailto:dermatologieminimes@gmx.fr', label: 'dermatologieminimes@gmx.fr', position: 'right'}
 
         // {

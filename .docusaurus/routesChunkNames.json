@@ -1,146 +1,103 @@
 {
-  "/__docusaurus/debug/-63f": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
-  "/__docusaurus/debug/config/-cce": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
-  "/__docusaurus/debug/content/-563": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-d88"
-  },
-  "/__docusaurus/debug/globalData/-a54": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
-  "/__docusaurus/debug/metadata/-819": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
-  "/__docusaurus/debug/registry/-e10": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
-  "/__docusaurus/debug/routes/-342": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-178-75c"
-    }
-  },
   "/appointment/-5af": {
-    "__comp": "__comp---site-src-pages-appointment-tsxdf-2-bc1",
+    "__comp": "df2a61d8",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/bio/-a41": {
-    "__comp": "__comp---site-src-pages-bio-tsxb-52-151",
+    "__comp": "b5204ab3",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/cabinet-pictures/-539": {
-    "__comp": "__comp---site-src-pages-cabinet-pictures-tsxdc-6-dab",
+    "__comp": "dc657f0c",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/cdm/-9ab": {
-    "__comp": "__comp---site-src-pages-cdm-tsx-999-0d3",
+    "__comp": "99929cf5",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/epilation/-33a": {
-    "__comp": "__comp---site-src-pages-epilation-tsx-08-a-820",
+    "__comp": "08af0835",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/general/-21a": {
-    "__comp": "__comp---site-src-pages-general-tsx-197-162",
+    "__comp": "1970adf5",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/generic-page/-c7a": {
-    "__comp": "__comp---site-src-pages-generic-page-tsxd-0-e-8bc",
+    "__comp": "d0e6a975",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/intro/-dc2": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "content": "content---intro-2-c-3-ea0"
+    "content": "2c397297"
   },
   "/ongles/-4ed": {
-    "__comp": "__comp---site-src-pages-ongles-tsx-883-6a5",
+    "__comp": "883f8ca4",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/photo/-f05": {
-    "__comp": "__comp---site-src-pages-photo-tsxbb-7-f7d",
+    "__comp": "bb73eddd",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/team/-3cd": {
-    "__comp": "__comp---site-src-pages-team-tsxe-03-071",
+    "__comp": "e0383bde",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   },
   "/docs/-c5d": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docs-8-fe-283"
+      "plugin": "8fe6822e"
     }
   },
   "/docs/-834": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---docs-935-739"
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
   },
   "/docs/-34d": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/test/-7fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-test-4-af-f66"
+    "__comp": "17896441",
+    "content": "4af26d8c"
   },
   "/-900": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---appointment-16-e-e60"
+      "plugin": "16e27895"
     },
-    "config": "config---appointment-5-e-9-c49"
+    "config": "5e9f5e1a"
   }
 }

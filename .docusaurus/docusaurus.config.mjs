@@ -113,8 +113,8 @@ export default {
           "position": "right"
         },
         {
-          "to": "tel:0970582602",
-          "label": "09 70 58 26 02",
+          "to": "tel:0162150816",
+          "label": "01 62 15 08 16 (télé secrétariat)",
           "position": "right"
         },
         {

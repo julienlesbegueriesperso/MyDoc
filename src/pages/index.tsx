@@ -9,7 +9,7 @@ import clsx from 'clsx';
 import Header from '../components/Header';
 import styles from './index.module.css';
 import { Suspense, lazy, useEffect, useState } from 'react';
-import { CircularProgress, Typography } from '@mui/material';
+import { Box, CircularProgress, Typography } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 // import TwoColumnsContent from '../components/TwoColumnsContent';
 import CabinetImages from '../components/CabinetImages';
@@ -69,13 +69,15 @@ export default function Home(): JSX.Element {
       description="Dermatologie des Minimes">
       <HomepageHeader />
       <main>
-        <div style={{display: 'flex'}}>
+        <div className={styles['frame']}>
+      <div className={styles['left']}>
       <Suspense fallback={<CircularProgress></CircularProgress>}>
          <BrowserOnly>{() => {
              return <HomeComponent></HomeComponent>;
          }}</BrowserOnly>
       </Suspense>
-        <div style={{margin: '1.5em'}}>
+      </div>
+        <div style={{margin: '1.5em'}} className={styles['right']}>
         <Suspense fallback={<CircularProgress></CircularProgress>}>
          <BrowserOnly>{() => {
         return <CabinetImages></CabinetImages>
@@ -83,9 +85,10 @@ export default function Home(): JSX.Element {
          </Suspense>
         </div>
         </div>
+
       </main>
+      
       <CookieConsent
-       
   location="bottom"
   buttonText="J'ai compris"
   cookieName="sampleCookie"

@@ -29,7 +29,7 @@ export function Header() {
 
     const images = [
         {
-            img: "/img/medic1.jpg",
+            img: "/img/cabinet/cab-7101.jpg",
             title: "medic1",
             rows: 2,
             cols: 2,
@@ -39,8 +39,8 @@ export function Header() {
             title: "medic2",
         },
         {
-            img: "/img/medic3.jpg",
-            title: "medic3",
+            img: "/img/cabinet/cab-7034.jpg",
+            title: "medic3"
         },
     ];
 
@@ -79,16 +79,16 @@ export function Header() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--primary button--lg"
-                        to="tel:0970582602">
+                        to="tel:0162150816">
                         <Typography variant="body1">
                             <PhoneIcon></PhoneIcon>
-                            09 70 58 26 02
+                            01 62 15 08 16 (télé secrétariat)
                         </Typography>
                     </Link>
                 </div>
             </div>
             
-            <ImageList cols={3} variant="quilted" sx={{ height: '170pt', width: '200pt'}}>
+            <ImageList cols={3} variant="quilted" sx={{ alignContent:'center', alignItems:'center', height: '150pt', width: '150pt'}}>
                 {images.map((item) => (
                     <ImageListItem
                         key={item.img}
