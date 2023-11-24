@@ -1,4 +1,4 @@
-import { Avatar, Box, CircularProgress, Divider, Paper, Typography } from "@mui/material";
+import { Alert, Avatar, Box, CircularProgress, Divider, Paper, Typography } from "@mui/material";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import CabinetImages from "./CabinetImages";
 import { Suspense } from "react";
@@ -31,13 +31,15 @@ export function Team() {
           <br />
           Diplômée en Dermatologie, DIU de dermato-pédiatrie, DIU de
           dermoscopie. Past President de l'AMPDV (Association Midi Pyrénées
-          des Dermatologues Vénéréologues), Vice-Présidente de l'AMPDV. Nous
+          des Dermatologues Vénéréologues), Vice-Présidente de l'AMPDV. 
+        </Typography>
+        <br/>
+        <Alert severity="info">Nous
           ne pratiquons pas: la dermato-allergologie, le traitement des
           varicosités (angiologues), la médecine esthétique et les actes de
           confort (ex. taches visage bénignes, excroissances cutanées
           bénignes, kératoses séborrhéiques...)
-        </Typography>
-        <br/>
+          </Alert>
         <Typography>
           <strong style={{ color: 'green' }}>Nos assistantes</strong>
           <br />

@@ -1,5 +1,5 @@
 
-import { Typography, Paper } from "@mui/material";
+import { Typography, Paper, Box, Stack } from "@mui/material";
 import {PricesWomen, PricesMen} from "./PricesTable";
 import TabItem from "./TabItem";
 import styles from './Epilation.module.css';
@@ -108,6 +108,7 @@ possible uniquement dans certains cas (hirsutisme) et pour des zones définies.
 export function Epilation() {
   return (
     <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
           <Typography>
             Notre cabinet est équipé du laser{" "}
             <strong>Alexandrite Candela Gentle Lase Pro-U</strong> avec système
@@ -124,12 +125,11 @@ export function Epilation() {
             repousse des poils. Ils sont ensuite réalisés par l'assistante sous
             supervision médicale.
           </Typography>
-
-          {/* <ul>
-                <li>Fiche information (version mars 2023)</li>
-                <li>Grille de tarif femme</li>
-                <li>Grille de tarif homme</li>
-          </ul> */}
+          <Box>
+            <img  src="/img/cabinet/cab-7049.jpg" width="850em" height="300em"></img>
+          </Box>
+          </Stack>
+          
           <h4>Grille de tarifs femme</h4>
           <PricesWomen></PricesWomen>
           <h4>Grille de tarifs homme</h4>

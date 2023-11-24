@@ -37,6 +37,12 @@ const iconParkingPMR = new L.Icon({
   className: 'leaflet-div-icon'
 });
 
+const iconMetro = new L.Icon({
+  iconUrl: "./map/metro.svg",
+  iconSize: new L.Point(30,30),
+  className: 'leaflet-div-icon'
+})
+
 export function Map() {
     const position:LatLngExpression = [43.626602, 1.435551]
     const mapRef = useRef<LeafletMap>(null)
@@ -71,6 +77,17 @@ export function Map() {
         {/* <SVGOverlay bounds={pathBounds}>
             <path>M 0 0 L 5 2</path>
         </SVGOverlay> */}
+         <Marker position={[43.627101, 1.434192] as LatLngExpression} opacity={0.8} icon={iconMetro}>
+          <Tooltip>
+            Sortie de métro
+          </Tooltip>
+        </Marker>
+        <Marker position={[43.626588, 1.433760] as LatLngExpression} opacity={0.8} icon={iconMetro}>
+          <Tooltip>
+            Sortie de métro
+          </Tooltip>
+        </Marker>
+        
         <Marker position={[43.626528, 1.434514] as LatLngExpression} opacity={0.8} icon={iconParking}>
           <Tooltip>
             Parking du Casino

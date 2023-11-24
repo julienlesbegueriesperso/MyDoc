@@ -71,18 +71,18 @@ export default function Home(): JSX.Element {
       <main>
         <div className={styles['frame']}>
       <div className={styles['left']}>
-      <Suspense fallback={<CircularProgress></CircularProgress>}>
+      {/* <Suspense fallback={<CircularProgress></CircularProgress>}> */}
          <BrowserOnly>{() => {
              return <HomeComponent></HomeComponent>;
          }}</BrowserOnly>
-      </Suspense>
+      {/* </Suspense> */}
       </div>
-        <div style={{margin: '1.5em'}} className={styles['right']}>
-        <Suspense fallback={<CircularProgress></CircularProgress>}>
+        <div style={{margin: '1.5em', minWidth: '300pt'}} className={styles['right']}>
+        {/* <Suspense fallback={<CircularProgress></CircularProgress>}> */}
          <BrowserOnly>{() => {
         return <CabinetImages></CabinetImages>
          }}</BrowserOnly>
-         </Suspense>
+         {/* </Suspense> */}
         </div>
         </div>
 
