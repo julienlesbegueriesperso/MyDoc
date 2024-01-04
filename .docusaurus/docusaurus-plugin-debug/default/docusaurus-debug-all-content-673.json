@@ -107,6 +107,11 @@
       },
       {
         "type": "jsx",
+        "permalink": "/mentions",
+        "source": "@site/src/pages/mentions.tsx"
+      },
+      {
+        "type": "jsx",
         "permalink": "/ongles",
         "source": "@site/src/pages/ongles.tsx"
       },

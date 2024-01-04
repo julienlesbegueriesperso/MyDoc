@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/mentionslegales",
+  "source": "@site/src/pages/mentionslegales.md",
+  "title": "Mentions légales",
+  "description": "Ce site est la propriété exclusive des Docteurs Marie Caucanas et Laureline Legendre.",
+  "frontMatter": {},
+  "unlisted": false
+}

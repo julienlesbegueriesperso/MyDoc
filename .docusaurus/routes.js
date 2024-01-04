@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/mentions/',
+    component: ComponentCreator('/mentions/', '7d3'),
+    exact: true
+  },
+  {
     path: '/ongles/',
     component: ComponentCreator('/ongles/', '4ed'),
     exact: true

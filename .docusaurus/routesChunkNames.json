@@ -98,6 +98,13 @@
     },
     "content": "content---intro-2-c-3-ea0"
   },
+  "/mentions/-7d3": {
+    "__comp": "__comp---site-src-pages-mentions-tsx-608-bd3",
+    "__context": {
+      "plugin": "plugin---appointment-16-e-e60"
+    },
+    "config": "config---appointment-5-e-9-c49"
+  },
   "/ongles/-4ed": {
     "__comp": "__comp---site-src-pages-ongles-tsx-883-6a5",
     "__context": {

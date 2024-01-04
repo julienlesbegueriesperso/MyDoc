@@ -122,34 +122,8 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "CGV",
-          "items": [
-            {
-              "label": "Conditions générales de vente TODO",
-              "to": "#"
-            },
-            {
-              "label": "Tarif des services esthétiques TODO",
-              "to": "#"
-            }
-          ]
-        },
-        {
-          "title": "Proriétaires du site",
-          "items": [
-            {
-              "label": "Identification des professionnels",
-              "to": "#"
-            },
-            {
-              "label": "Hébergeur",
-              "to": "#"
-            },
-            {
-              "label": "Autorité",
-              "to": "#"
-            }
-          ]
+          "label": "Mentions légales",
+          "to": "/mentions"
         }
       ],
       "copyright": "Copyright © 2024 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "

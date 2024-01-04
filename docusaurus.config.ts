@@ -121,35 +121,27 @@ const config: Config = {
       
       links: [
         {
-          title: 'CGV',
-          items: [
-            {
-              label: 'Conditions générales de vente TODO',
-              to: "#"
-            },
-            {
-              label: 'Tarif des services esthétiques TODO',
-              to: "#"
-            }
-          ]
+          label: 'Mentions légales',
+          to: '/mentions'
         },
-        {
-          title: 'Proriétaires du site',
-          items: [
-            {
-              label: 'Identification des professionnels',
-              to: "#"
-            },
-            {
-              label: 'Hébergeur',
-              to: '#'
-            },
-            {
-              label: 'Autorité',
-              to: '#'
-            }
-          ]
-        }
+        
+        // {
+        //   title: 'Proriétaires du site',
+        //   items: [
+        //     {
+        //       label: 'Identification des professionnels',
+        //       to: "#"
+        //     },
+        //     {
+        //       label: 'Hébergeur',
+        //       to: '#'
+        //     },
+        //     {
+        //       label: 'Autorité',
+        //       to: '#'
+        //     }
+        //   ]
+        // }
         // {
         //   title: 'Docs',
         //   items: [

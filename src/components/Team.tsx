@@ -20,9 +20,15 @@ export function Team() {
           <br />
           Diplômée en Dermatologie, spécialisée en maladies et chirurgie des
           ongles, DIU Maladies systémiques, DIU Dermatologie esthétique, laser
-          et cosmétologie. Past President de l'AMPDV (Association Midi
-          Pyrénées des Dermatologues Vénéréologues), Trésorière du Groupe
+          et cosmétologie. 
+          <Typography>
+          Past President de l'AMPDV (Association Midi
+          Pyrénées des Dermatologues Vénéréologues).
+          </Typography>
+          <Typography>
+          Trésorière du Groupe
           Ongle de la SFD (Société Française de Dermatologie).
+          </Typography>
         </Typography>
         <Typography>
           Membre de TELDES de la SFD (groupe de télédermatologie et e-santé).
@@ -36,7 +42,10 @@ export function Team() {
           <strong style={{ color: 'deeppink' }}>Laureline Legendre</strong>
           <br />
           Diplômée en Dermatologie, DIU de dermato-pédiatrie, DIU de
-          dermoscopie. Past President de l'AMPDV (Association Midi Pyrénées
+          dermoscopie. 
+          </Typography>
+          <Typography>
+            Past President de l'AMPDV (Association Midi Pyrénées
           des Dermatologues Vénéréologues), Vice-Présidente de l'AMPDV. 
         </Typography>
         <Typography>
