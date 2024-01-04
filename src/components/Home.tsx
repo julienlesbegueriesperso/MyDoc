@@ -3,7 +3,7 @@ import { Alert, Paper, Typography } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
 // import PhoneIcon from "@mui/icons-material/Phone";
 import Map from './Map/Map'
-import TabItem from "./TabItem";
+
 
 
 
@@ -16,16 +16,20 @@ export function Home() {
     return null; // return this null to avoid hydration errors
   }
   return (
-    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'}}>
+    <Paper elevation={0}  sx={{maxWidth:"800pt", margin: '15pt', padding: '5pt'
+    }}>
           <Typography>
-            
             Les Dr Marie CAUCANAS et Laureline LEGENDRE sont conventionnées en
             secteur 1 (honoraires conformes à ceux de la Sécurité Sociale).
           </Typography>
           <Typography>
-            Les actes de confort et d'esthétique ne sont pas pris en charge.
+          En dehors du laser épilatoire, les médecins ne réalisent pas d'acte de confort et d'esthétique.
           </Typography>
-          
+          <Typography>
+            Engagées dans la formation d'internes en dermatologie du CHU de Toulouse,
+            les dermatologues accueillent régulièrement ces derniers, qui peuvent réaliser
+            des consultations sous supervision médicale.
+          </Typography>
           <Typography>
             <br />
           </Typography>

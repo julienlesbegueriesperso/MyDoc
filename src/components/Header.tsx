@@ -50,7 +50,10 @@ export function Header() {
         {/* // <div className={styles["banner"]}>
             {/* <div style={{display: "inline-block"}}> */}
             
-            <img style={{ flex: 0.1, width: "12vw", minWidth: '200pt' }}  src="/img/logo.svg" alt="logo dermatologie minimes" />
+            <img style={{ background:"white" , padding: '5pt', flex: 0.1, width: "12vw", minWidth: '200pt' }}  src="/img/logo.svg" alt="logo dermatologie minimes" />
+            <span style={{background:"white" , flex: 0.2, margin: '5pt'}}></span>
+            <img style={{ background:"white" , padding: '5pt', flex: 0.1, width: "6vw", minWidth: '80pt' }}  src="/img/logo_cdm.png" alt="logo clinique minimes" />
+            
             {/* // </div>
             // <div>
             // <span style={{ flex: 4 }}></span>
@@ -87,8 +90,10 @@ export function Header() {
                     </Link>
                 </div>
             </div>
-            
-            <ImageList cols={3} variant="quilted" sx={{ alignContent:'center', alignItems:'center', height: '150pt', width: '150pt'}}>
+           <img src="/img/cabinet/cab-7111-ret.jpg" placeholder="equipe" height={150}
+           style={{borderRadius: 5}}
+           ></img>
+            {/* <ImageList cols={3} variant="quilted" sx={{ alignContent:'center', alignItems:'center', height: '150pt', width: '150pt'}}>
                 {images.map((item) => (
                     <ImageListItem
                         key={item.img}
@@ -102,7 +107,7 @@ export function Header() {
                         />
                     </ImageListItem>
                 ))}
-            </ImageList>
+            </ImageList> */}
             <p style={{flex:1}}></p>
         
         </>

@@ -9,7 +9,7 @@ import clsx from 'clsx';
 import Header from '../components/Header';
 import styles from './index.module.css';
 import { Suspense, lazy, useEffect, useState } from 'react';
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { Box, CircularProgress, ThemeProvider, Typography, createTheme } from '@mui/material';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 // import TwoColumnsContent from '../components/TwoColumnsContent';
 import CabinetImages from '../components/CabinetImages';
@@ -19,8 +19,7 @@ const HomeComponent = lazy(() => import("../components/Home"));
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext()
 
-  return (
-    
+  return (<>
      <header className={clsx('hero hero--primary', styles.heroBanner)}>
 
 {/* <img 
@@ -51,6 +50,7 @@ function HomepageHeader() {
           </Link>
         </div> */}
     </header>
+    </>
   );
 }
 
@@ -59,11 +59,26 @@ export default function Home(): JSX.Element {
   // const { consent, setConsent, isBannerVisible, toggleBanner, isDetailsVisible, toggleDetails } = useConsent();
 
 
-  
+  const theme = createTheme({
+    typography: {
+      fontFamily: [
+        // '-apple-system',
+        // 'BlinkMacSystemFont',
+        // '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+      ].join(','),
+    },
+  });
 
   return (
     <>
-    
+    <ThemeProvider theme={theme}>
     <Layout
       title={`${siteConfig.title}`}
       description="Dermatologie des Minimes">
@@ -99,6 +114,7 @@ export default function Home(): JSX.Element {
   Ce site serait peut-être amené à stocker des cookies ... TODO
 </CookieConsent>
     </Layout>
+    </ThemeProvider>
     
     
     {/* <BrowserOnly>{() => {

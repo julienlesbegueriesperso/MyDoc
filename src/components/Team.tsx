@@ -14,7 +14,7 @@ export function Team() {
     <div style={{display: "flex", flexWrap: "wrap"}}>
       <div style={{ flex: '1 15em'}}>
       <Paper elevation={0} sx={{ maxWidth: "800pt", margin: '15pt', padding: '5pt' }}>
-        <Avatar sx={{ width: 120, height: 120 }} alt="Marie Caucanas" src="/img/mc.jpeg" />
+        <Avatar sx={{justifyContent: "center", display: "flex" , width: 120, height: 120 }} alt="Marie Caucanas" src="/img/mc2.png" />
         <Typography>
           <strong style={{ color: 'violet' }}>Marie Caucanas</strong>
           <br />
@@ -24,14 +24,23 @@ export function Team() {
           Pyrénées des Dermatologues Vénéréologues), Trésorière du Groupe
           Ongle de la SFD (Société Française de Dermatologie).
         </Typography>
+        <Typography>
+          Membre de TELDES de la SFD (groupe de télédermatologie et e-santé).
+        </Typography>
+        <Typography>
+          Membre de l'ENS (europeen nail society).
+        </Typography>
         <br />
-        <Avatar sx={{ width: 120, height: 120 }} alt="Laurleine Legendre" src="/img/ll.jpeg" />
+        <Avatar sx={{ justifyContent: "center", display: "flex" , width: 120, height: 120 }} alt="Laurleine Legendre" src="/img/ll2.png" />
         <Typography>
           <strong style={{ color: 'deeppink' }}>Laureline Legendre</strong>
           <br />
           Diplômée en Dermatologie, DIU de dermato-pédiatrie, DIU de
           dermoscopie. Past President de l'AMPDV (Association Midi Pyrénées
           des Dermatologues Vénéréologues), Vice-Présidente de l'AMPDV. 
+        </Typography>
+        <Typography>
+          Membre de TELDES de la SFD (groupe de télédermatologie et e-santé).
         </Typography>
         <br/>
         <Alert severity="info">Nous
@@ -43,7 +52,7 @@ export function Team() {
         <Typography>
           <strong style={{ color: 'green' }}>Nos assistantes</strong>
           <br />
-          Camille, Corinne, Julie.
+          Corinne, Julie, Camille.
         </Typography>
         <div style={{alignContent:"center", alignItems: "center"}}>
           <img src="/img/assistantes.jpg" alt="assistantes" width={"50%"}></img>

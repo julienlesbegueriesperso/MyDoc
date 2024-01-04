@@ -33,14 +33,7 @@ export default {
       }
     ]
   ],
-  "stylesheets": [
-    {
-      "href": "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
-      "type": "text/css",
-      "integrity": "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
-      "crossorigin": "anonymous"
-    }
-  ],
+  "stylesheets": [],
   "trailingSlash": true,
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
@@ -67,7 +60,7 @@ export default {
             },
             {
               "to": "/appointment",
-              "label": "Prendre RDV"
+              "label": "Avis Dermatologique / Rendez-vous"
             },
             {
               "to": "/general",
@@ -159,7 +152,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "
+      "copyright": "Copyright © 2024 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "
     },
     "prism": {
       "theme": {
@@ -368,13 +361,6 @@ export default {
         }
       ]
     },
-    "mermaid": {
-      "theme": {
-        "dark": "dark",
-        "light": "default"
-      },
-      "options": {}
-    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -386,6 +372,13 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
     },
     "liveCodeBlock": {
       "playgroundPosition": "bottom"

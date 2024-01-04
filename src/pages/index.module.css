@@ -5,7 +5,7 @@
 
 .heroBanner {
   /* position: sticky; */
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -33,7 +33,7 @@
 .frame {
   position:relative;
   /* background-color: lightgreen; */
-  width: 100vw;
+  width: 95vw;
   padding: 5pt;
   overflow:hidden;
   flex-flow:row wrap;

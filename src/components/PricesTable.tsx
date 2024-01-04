@@ -142,7 +142,7 @@ export function PricesWomen() {
           ajout: ''
       },
       {
-        zone:'Avants Bras',
+        zone:'Avant-bras',
         tarifs: '110 €',
         ajout: ''
     },
@@ -285,7 +285,7 @@ export function PricesMen() {
         },
         {
           zone: 'torse + abdomen + dos entier + haut des bras',
-          tarifs: '5O0€',
+          tarifs: '500€',
         },
         /**
          * 
@@ -302,7 +302,7 @@ Abdomen 140€
 Dos (Haut hors épaules) 140€
 Dos (Bas) 140€
 Bras 150€
-Avants-bras 140€
+Avant-bras 140€
 Mains 50€
 Maillot (Aine+Haut pubis) 150€
 Maillot intégral (SIF inclus) 200€

@@ -50,13 +50,13 @@ const config: Config = {
   ],
   
   stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
+    // {
+    //   href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+    //   type: 'text/css',
+    //   integrity:
+    //     'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+    //   crossorigin: 'anonymous',
+    // },
   ],
   trailingSlash: true,
   themeConfig: {
@@ -79,7 +79,7 @@ const config: Config = {
           label: 'Informations générales',
           items: [
             {to: '/team', label: 'L\' Équipe'},
-            {to: '/appointment', label: 'Prendre RDV'},
+            {to: '/appointment', label: 'Avis Dermatologique / Rendez-vous'},
             {to: '/general', label: "Sites d'information patients"},
             {to: '/cabinet-pictures', label: "Galerie"}
             

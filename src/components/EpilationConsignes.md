@@ -28,7 +28,7 @@ reste médiocre. A l'opposé, les patients bronzés, métissés ou noirs nécess
 
 ### Pour toutes les zones
 Le traitement d'attaque comprendra 8 à 10 séances et sera suivi selon les cas d'un traitement d'entretien
-plus espacé. A noter qu'il faut plus de séances à 20 ans qu'il n'en faut à 40 ans, pour le même résultat.
+plus espacé. Notre exéprience montre qu'il faut plus de séances à 20 ans qu'il n'en faut à 40 ans, pour le même résultat.
 Les femmes présentent un excès d'hormones masculines (hyperandrogénie) auront un résultat d'épilation moins 
 satisfaisant, a fortiori si ceci n'a pas été dépisté et traité. La prise de contraceptifs progestatifs peut 
 réduire l'efficacité du laser, notamment sur la zone du maillot.
