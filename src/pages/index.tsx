@@ -13,7 +13,7 @@ import { Box, CircularProgress, ThemeProvider, Typography, createTheme } from '@
 import BrowserOnly from '@docusaurus/BrowserOnly';
 // import TwoColumnsContent from '../components/TwoColumnsContent';
 import CabinetImages from '../components/CabinetImages';
-import CookieConsent from 'react-cookie-consent';
+//import CookieConsent from 'react-cookie-consent';
 const HomeComponent = lazy(() => import("../components/Home"));
 
 function HomepageHeader() {
@@ -102,35 +102,8 @@ export default function Home(): JSX.Element {
         </div>
 
       </main>
-      
-      <CookieConsent
-  location="bottom"
-  buttonText="J'ai compris"
-  cookieName="sampleCookie"
-  style={{ background: "#2B373B" }}
-  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-  expires={150}
->
-  Ce site serait peut-être amené à stocker des cookies ... TODO
-</CookieConsent>
     </Layout>
     </ThemeProvider>
-    
-    
-    {/* <BrowserOnly>{() => {
-        return  <>{isBannerVisible && <ConsentBanner
-    settings={{ hidden: false, label: 'More', modal: { title: 'Modal title' } }}
-    decline={{ label: 'No' }}
-    approve={{ label: 'Yes'}}
-    >
-     <>
-        Can we use cookies and external services according to our <a href="test">privacy policy</a> to
-        improve the browsing experience?
-    </>
-</ConsentBanner>}
-  <p/>
-</>
-}}</BrowserOnly> */}
 </>
 
   );

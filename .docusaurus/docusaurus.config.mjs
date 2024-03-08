@@ -126,7 +126,8 @@ export default {
           "to": "/mentions"
         }
       ],
-      "copyright": "Copyright © 2024 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "
+      "copyright": "Copyright © 2024 SELARL CAUCANAS LEGENDRE, dermatologieminimes@gmx.fr, hébergement IONOS      "
+      //"copyright": "Copyright © 2024 TODO société, adresse, numéro immatriculation ou RCS,\n\n      09 00 00 00 00, dermatologieminimes@gmx.fr, numéro d'identification à la TVA, identité hébergeur (vercel ou ionos ?)\n\n      autorité ? (ordre des médecins ?)\n      "
     },
     "prism": {
       "theme": {

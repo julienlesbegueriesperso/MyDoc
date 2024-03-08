@@ -25,7 +25,7 @@ Ce site a été entièrement financé par les docteurs Caucanas et Legendre
 # Public visé 
 Les patients des Docteurs Caucanas et Legendre mais également tous publics souhaitant des informations sur la médecine dermatologique.
 
-# Cookies
+<!-- # Cookies
 La navigation sur ce site utilise l'installation de cookie(s) sur l'ordinateur de l'utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l'identification de l'utilisateur, mais qui enregistre des informations relatives à la navigation d'un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation sur le site, et ont également vocation à permettre diverses mesures de fréquentation.
 
 Le refus d'installation d'un cookie peut entraîner l'impossibilité d'accéder à certains services. L'utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l'installation des cookies :
@@ -37,6 +37,7 @@ Sous Firefox : en haut de la fenêtre du navigateur, cliquez sur le bouton Firef
 Sous Safari : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par un rouage). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur Paramètres de contenu. Dans la section "Cookies", vous pouvez bloquer les cookies.
 
 Sous Chrome : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par trois lignes horizontales). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur préférences. Dans l'onglet "Confidentialité", vous pouvez bloquer les cookies.
+-->
 
 # Webmaster 
 Les docteurs Marie Caucanas et Laureline Legendre

@@ -90,11 +90,11 @@ const columnsWomen =
       accessor:'zone'
     },
     {
-      Header: 'Tarifs',
+      Header: 'Tarifs TTC',
       accessor:'tarifs'
     },
     {
-      Header: 'Prix si ajouté à autres zones',
+      Header: 'Tarifs TTC si ajouté à autres zones',
       accessor:'ajout'
     }
   ]
@@ -106,7 +106,7 @@ const columnsWomen =
       accessor:'zone'
     },
     {
-      Header: 'Tarifs',
+      Header: 'Tarifs TTC',
       accessor:'tarifs'
     }
   ]
